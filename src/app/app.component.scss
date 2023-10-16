@@ -1,0 +1,68 @@
+.container{
+display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.mat-button-toggle-appearance-standard .mat-button-toggle-label-content{
+
+    line-height: 35px !important ;
+}
+
+.button-container{
+background-color: white;
+border: none;
+
+.button.mat-button-toggle-checked{
+    background-color: rgba(0, 0, 0, 1);
+}
+.other{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    mat-icon{
+        height: 15px;
+      
+    }
+    .step{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 6px;
+    }
+}
+.button{
+   // align-items: center;
+    width: 50px;
+    //height: 40px;
+    border: none;
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0 1px;
+    &:first-child {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+    &:last-child {
+        text-align: left;
+        padding-right: 5px;
+        width: 150px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        input {
+            width: 30px;
+            background-color: inherit;
+            color: inherit;
+            outline: none;
+            border: none;
+            border-bottom:2px solid  white ;
+        }
+        .mat-button-toggle-button .mat-button-toggle-label-content{
+            text-align: left;
+            width: 100% !important;
+            padding: 0px ;
+            
+        }
+    }
+}
+}
